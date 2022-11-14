@@ -14,7 +14,7 @@ DLSA is Intel optimized representative End-to-end Fine-Tuning & Inference pipeli
 
 * The workflow uses BF16 precision in SPR which speeds up the training time using Intel® AMX, without noticeable loss in accuracy when compared to FP32 precision using (Intel®  AVX-512).
 
-<br><img src="images/DLSA_workflow.png" width="1800" height="700"><br>
+<br><img src="https://raw.githubusercontent.com/intel/ai-workflows/main/language_modeling/pytorch/bert_large/training/iages/DLSA_workflow.png" width="100%"> <br>
 
 ## Get Started
 
@@ -37,7 +37,7 @@ wget http://ai.stanford.edu/~amaas/data/sentiment/aclImdb_v1.tar.gz && tar -zxf 
 #back to profiling-transformers folder
 cd ..
 ```
->Note: Make sure the network connections work well for downloading the datasets.
+Note: Make sure the network connections work well for downloading the datasets.
 
 ### **Docker**
 Below setup and how-to-run sessions are for users who want to use provided docker image.  
@@ -101,7 +101,6 @@ sh install.sh
 #### How to run 
 
 ##### Fine-Tuning Pipeline
-
 
 |  Implementations                               | Model    | Instance | API         | Framework       | Precision  |
 | ---------------------------------- | -------- | -------- | ----------- | ----------------------- | ---------- |
